@@ -1,0 +1,171 @@
+/* Style Global */
+body {
+    font-family: 'Cormorant Garamond', serif; /* Nouvelle police élégante */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f6;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif; /* Utilisation de la police élégante pour les titres */
+    color: #3a3a3a;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    padding: 25px; /* Augmentation de l'espacement */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul li {
+    margin: 0 40px; /* Espacement plus grand entre les éléments */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-weight: 700;
+    font-size: 1.5em; /* Taille de police augmentée pour un look plus chic */
+    transition: color 0.3s ease;
+    letter-spacing: 1.5px; /* Espacement des lettres pour plus de lisibilité et élégance */
+}
+
+nav ul li a i {
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+}
+
+nav ul li a:hover {
+    color: #8a9ba8;
+    border-bottom: 2px solid #b3c2bf;
+}
+
+
+
+/* Section de contact */
+.contact-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-section h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #5a5a5a;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3a3a3a;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #8a9ba8;
+    outline: none;
+}
+
+.contact-form button {
+    padding: 15px;
+    background-color: #8a9ba8;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #6e838b;
+}
+
+/* Liens sociaux */
+.social-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-links h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #3a3a3a;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #8a9ba8;
+    font-size: 2em;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #5a5a5a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+footer a {
+    color: #8a9ba8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

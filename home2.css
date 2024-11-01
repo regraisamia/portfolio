@@ -1,0 +1,302 @@
+/* Style Global */
+body {
+    font-family: 'Cormorant Garamond', serif; /* Nouvelle police élégante */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f6;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif; /* Utilisation de la police élégante pour les titres */
+    color: #3a3a3a;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    padding: 25px; /* Augmentation de l'espacement */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul li {
+    margin: 0 40px; /* Espacement plus grand entre les éléments */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-weight: 700;
+    font-size: 1.5em; /* Taille de police augmentée pour un look plus chic */
+    transition: color 0.3s ease;
+    letter-spacing: 1.5px; /* Espacement des lettres pour plus de lisibilité et élégance */
+}
+
+nav ul li a i {
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+}
+
+nav ul li a:hover {
+    color: #8a9ba8;
+    border-bottom: 2px solid #b3c2bf;
+}
+
+/* Style pour l'introduction */
+.intro {
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #5a5a5a;
+}
+
+.intro-content {
+    display: flex; /* Utiliser le modèle flexbox pour l'alignement */
+    align-items: center; /* Aligner verticalement le contenu */
+}
+
+.profile-image {
+    width: 11em; /* Augmentez la taille de l'image */
+    height: auto; /* Maintient le ratio de l'image */
+    opacity: 0.3; /* Réduisez l'opacité pour plus de transparence */
+    margin-left: 15px; /* Espacement entre l'image et le texte */
+}
+
+.skills {
+    background-color: #f9f9f9;
+    padding: 60px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.skill-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.skill-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.skill-content h3 {
+    font-size: 1.8rem;
+    color: #607d58; /* Vert doux et subtil */
+    margin-bottom: 10px;
+}
+
+.skill-content p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.crochet {
+    background-image: url('assets/crochet-pattern.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.crochet .skill-content h3 {
+    color: #607d58; /* Vert doux */
+}
+
+.cta-about {
+    background-color: #f0f0f0;
+    padding: 60px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+}
+
+.cta-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.cta-text h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cta-text p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.cta-text .btn {
+    background-color: #607d58; /* Vert doux et élégant */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-text .btn:hover {
+    background-color: #4d6347; /* Vert légèrement plus foncé pour l'effet hover */
+}
+
+.cta-image {
+    max-width: 500px;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.discover-projects {
+    background-color: #eaeaea;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.discover-projects h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.discover-projects p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+.discover-projects .btn {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #4d6347; /* Bouton plus foncé */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.discover-projects .btn:hover {
+    background-color: #3d4f39; /* Teinte encore plus sombre pour l'effet hover */
+}
+
+.contact-section {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+.contact-section .btn {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #607d58; /* Vert doux pour le bouton de contact */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section .btn:hover {
+    background-color: #4d6347; /* Teinte légèrement plus sombre pour l'effet hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+footer a {
+    color: #8a9ba8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

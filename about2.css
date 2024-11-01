@@ -1,0 +1,115 @@
+/* Style Global */
+body {
+    font-family: 'Cormorant Garamond', serif; /* Nouvelle police élégante */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f6;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif; /* Utilisation de la police élégante pour les titres */
+    color: #3a3a3a;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    padding: 25px; /* Augmentation de l'espacement */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul li {
+    margin: 0 40px; /* Espacement plus grand entre les éléments */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-weight: 700;
+    font-size: 1.5em; /* Taille de police augmentée pour un look plus chic */
+    transition: color 0.3s ease;
+    letter-spacing: 1.5px; /* Espacement des lettres pour plus de lisibilité et élégance */
+}
+
+nav ul li a i {
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+}
+
+nav ul li a:hover {
+    color: #8a9ba8;
+    border-bottom: 2px solid #b3c2bf;
+}
+
+
+
+
+
+.about-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-section h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-section h2 {
+    margin-top: 30px;
+    border-bottom: 2px solid #8a9ba8;
+    padding-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-section ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+footer a {
+    color: #8a9ba8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
